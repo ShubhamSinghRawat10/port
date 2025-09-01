@@ -26,23 +26,24 @@ body{
     color:#333;
     font-size:15px;
 }
-.txt{
+.hero{
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding:60px 90px;
+    background: linear-gradient(120deg, #ffffff,#daeee1)
 }
-.intro{
+.hero-txt{
     max-width:50%;
 }
-.intro h1{
+.hero-txt h1{
     font-size:45px;
     margin-bottom:40px;
 }
-.intro h1 span{
+.hero-txt h1 span{
     color: rgb(123, 209, 178);
 }
-.intro p{
+.hero-txt p{
     font-size:17px;
     line-height:1.6;
     margin-bottom:30px;
@@ -62,4 +63,83 @@ body{
     width:300px;
     border-radius:15px;
     filter:drop-shadow(1px 4px 10px rgb(140, 138, 140));   
+}
+.about{
+    max-width: 1000px;
+    background:#fff;
+    margin:60px 15%;
+    padding: 50px;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.heading {
+    text-align:center;
+    font-size: 2.5rem;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+
+.heading span{
+    font-size :2.2rem;
+    font-weight:500;
+    color:#2cdc8d;
+    margin-top:5px;
+    font-style:italic;
+    border-bottom:2px solid #59605d;
+    display:block;
+    padding-bottom:2px;
+}
+.about-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap: 40px;
+    flex-wrap:wrap;
+}
+.about-img {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+} 
+.about-img  img{
+    width:100%;
+    max-width:350px;
+    height:auto;
+    border-radius:10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    object-fit:fill;
+}
+.about-text{
+    flex:2;
+    min-width:300px;
+}
+.about-text h2{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+.about-text .highlight{
+    color:#2cdc8d;
+    font-weight:bold;
+}
+.about-text p{
+    font-size:1rem;
+    margin-bottom:25px;
+    color:#333;
+    line-weight:1.6;
+    text-align:justify;
+}
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    margin-right:10px;
+    background:#2cdc8d;
+    color:#fff;
+    border-radius:6px;
+    font-size:1rem;
+    font-weight:500;
+    transition :0.3s;
 }
