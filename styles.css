@@ -58,11 +58,11 @@ body{
 }
 .img{
     display:flex;
-    justify-content:flex-end;
+    justify-content:center;
     align-items:center;
     width:300px;
     border-radius:15px;
-    filter:drop-shadow(1px 4px 10px rgb(140, 138, 140));   
+    filter:drop-shadow(1px 4px 10px rgb(48, 46, 48));   
 }
 .about{
     max-width: 1000px;
@@ -101,12 +101,12 @@ body{
 }
 .about-img {
   flex: 1;
-  min-width: 280px;
+  min-width: 300px;
   display: flex;
   justify-content: center;
 } 
 .about-img  img{
-    width:100%;
+    /* width:100%; */
     max-width:350px;
     height:auto;
     border-radius:10px;
