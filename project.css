@@ -25,31 +25,32 @@
 }
 .project-grid{
     display:flex;
-    flex-direction:column;
-    gap:30px;
-    max-width:1200px;
-    margin:0 auto;
+    gap:40px;
+    /* max-width:300px;
+    max-height: 300px; */
+    margin:0;
 }
 .project-grid h3{
     justify-content:space-between;
     /* align-items:center; */
     margin:20px 45%;
+    
 }
 .project-card{
     background:#fff;
-    border-radius:20px;
+    border-radius:30px;
+    width: 30vmax;
+    height: 25vmax;
     box-shadow:0 4px 12px rgba(0,0,0,0.8);
-    overflow:hidden;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .project-grid img{
-    flex-shrink:calc(0);
     width :100%;
     height:100%;
     object-fit:fill;
 }
 /* kal krte h isko*/
-.btn{
+.Projects bttn{
     align-items:center;
     justify-content:center;
     display:inline-block;
